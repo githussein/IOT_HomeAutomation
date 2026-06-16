@@ -17,6 +17,59 @@ This directory will contain the mobile companion app for the ESP32 Smart Home Au
 
 ---
 
+## Installation
+
+### Prerequisites
+
+Install:
+- Flutter 3 SDK
+- Android Studio or VS Code with Flutter extensions
+- Android SDK
+- Git
+
+Verify the installation:
+
+```bash
+flutter doctor
+```
+
+### Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <repository>/mobile
+```
+
+### Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### Run the Application
+
+Check connected devices:
+
+```bash
+flutter devices
+```
+
+Start the app:
+
+```bash
+flutter run
+```
+
+Build a release APK:
+
+```bash
+flutter build apk --release
+```
+
+> **Note:** Since the app is still under development, some features may not yet be available.
+
+---
+
 ## Bluetooth SPP Protocol
 
 The app communicates with the ESP32 over **Bluetooth Classic SPP**.  
